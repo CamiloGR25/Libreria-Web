@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #e6f4ff;  /* más claro */
+}
+
+header {
+    background: #003366;  /* azul oscuro */
+    color: #fff;
+    padding: 2vw;
+    text-align: center;
+}
+
+header img {
+    max-width: 10vw;
+    height: auto;
+}
+
+nav {
+    background: #004080;  /* azul mediano */
+    display: flex;
+    justify-content: center;
+    padding: 1vw 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;  
+    margin: 0 1vw;
+}
+
+nav a:hover {
+    background: #0059b3;  /* azul ligeramente más brillante */
+}
+
+#inicio, #libros, #info, #contacto {
+    background: white;
+    margin: 2vw;
+    padding: 2vw;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 3px solid #99c2ff;  /* azul claro */
+}
+
+th, td {
+    padding: 0.5em; 
+    text-align: left;
+}
+
+th {
+    background-color: #004080;  /* azul mediano */
+    color: #fff;
+}
+
+footer {
+    text-align: center;
+    padding: 2vw;
+    background: #003366;  /* azul oscuro */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+#tablaLibros {
+    margin-top: 20px;
+}
+
+
